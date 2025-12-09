@@ -1,0 +1,80 @@
+/* Posicionamiento*/
+
+/* Selector: header → especificidad (0,0,1) */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Selector: nav → especificidad (0,0,2) */
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Selector: header nav a → especificidad (0,0,3) */
+header nav a {
+    padding: 0.5em;
+    text-align: center;
+}
+
+/* Selector: body > main > div → especificidad (0,0,3) */
+body > main > div {
+    width: 100%;
+    height: 500px;
+}
+
+/* Selector: body > main > section[data-fotos] → especificidad (0,1,3) */
+body > main > section[data-fotos] {
+    width: 100%;
+    height: 500px;
+}
+
+@media (max-width: 465px) {
+
+    /* Selector: header → especificidad (0,0,1) */
+    header {
+        flex-direction: column;/* Advertencia permitida para adaptarse al tamaño: Redefinición de flex-direction */
+        align-items: flex-start;/* Advertencia permitida para adaptarse al tamaño: Redefinición de align-items */
+    }
+    /* Selector: header nav → especificidad (0,0,2) */
+    header nav {
+        flex-direction: column;/* Advertencia permitida para adaptarse al tamaño: Redefinición de flex-direction */
+    }
+
+    /* Selector: body > p:first-of-type → especificidad (0,1,2) */
+    body > p:first-of-type {
+        display: none;
+    }
+
+    /* Selector: video → especificidad (0,0,1) */
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Selector: audio → especificidad (0,0,1) */
+    audio {
+        width: 100%;
+    }
+
+    /* Selector: audio → especificidad (0,0,3) */
+    article h2 + img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Selector: body > main > section[data-fotos] → especificidad (0,0,3) */
+    body > main > div {
+        width: 100%;/* Advertencia permitida para adaptarse al tamaño: Redefinición de width */
+        height: 300px;/* Advertencia permitida para adaptarse al tamaño: Redefinición de height */
+    }
+
+    /* Selector: body > main > section[data-fotos] → especificidad (0,1,3) */
+    body > main > section[data-fotos] {
+        width: 100%;
+        height: 300px;
+    }
+}

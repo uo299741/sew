@@ -1,0 +1,67 @@
+<!ELEMENT circuito (nombre, longitud, anchuraMedia, carrera, ubicacion, referencias, fotografias, videos, puntoOrigen, tramos, vencedor, primerosClasificados)>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud
+        unidades CDATA #REQUIRED>
+
+<!ELEMENT anchuraMedia (#PCDATA)>
+<!ATTLIST anchuraMedia
+        unidades CDATA #REQUIRED>
+
+<!ELEMENT carrera (fecha, hora, numeroVueltas, patrocinadorPrincipal)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT numeroVueltas (#PCDATA)>
+<!ELEMENT patrocinadorPrincipal (#PCDATA)>
+
+<!ELEMENT ubicacion (localidad, pais)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+
+<!ELEMENT referencias (referencia, referencia, referencia, referencia*)>
+<!ELEMENT referencia (#PCDATA)>
+<!ATTLIST referencia
+        direccion CDATA #REQUIRED>
+
+<!ELEMENT fotografias (fotografia, fotografia?, fotografia?, fotografia?, fotografia?)>
+<!ELEMENT fotografia (#PCDATA)>
+<!ATTLIST fotografia
+        direccion CDATA #REQUIRED>
+
+<!ELEMENT videos (video, video?, video?)>
+<!ELEMENT video (#PCDATA)>
+<!ATTLIST video
+        direccion CDATA #REQUIRED>
+
+<!ELEMENT puntoOrigen (longitudPunto, latitud, altitud)>
+<!ELEMENT longitudPunto (#PCDATA)>
+<!ATTLIST longitudPunto
+        unidad CDATA #REQUIRED>
+<!ELEMENT latitud (#PCDATA)>
+<!ATTLIST latitud
+        unidad CDATA #REQUIRED>
+<!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud
+        unidad CDATA #REQUIRED>
+
+<!ELEMENT tramos (tramo+)>
+<!ELEMENT tramo (distancia, puntoFinal, numSector)>
+<!ELEMENT puntoFinal (longitudPunto, latitud, altitud)>
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia
+        unidad CDATA #REQUIRED>
+<!ELEMENT numSector (#PCDATA)>
+
+<!ELEMENT vencedor (nombre, tiempo)>
+<!ELEMENT tiempo (#PCDATA)>
+<!ATTLIST tiempo
+        minutos CDATA #REQUIRED
+        segundos CDATA #IMPLIED
+        decimas CDATA #IMPLIED>
+
+
+<!ELEMENT primerosClasificados (clasificado, clasificado, clasificado)>
+<!ELEMENT clasificado (nombre, puesto)>
+<!ELEMENT puesto (#PCDATA)>

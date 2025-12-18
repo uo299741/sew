@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuito xmlns="http://www.uniovi.es"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.uniovi.es circuito.xsd">
+
+    <nombre>Balaton Park</nombre>
+
+    <longitud unidades="metros">4115</longitud>
+
+    <anchuraMedia unidades="metros">15</anchuraMedia>
+
+    <carrera>
+        <fecha>2025-08-24</fecha>
+        <hora>14:00:00</hora>
+        <numeroVueltas>26</numeroVueltas>
+        <patrocinadorPrincipal>Monster Energy</patrocinadorPrincipal>
+    </carrera>
+    
+    <ubicacion>
+        <localidad>Balatonfőkajár</localidad>
+        <pais>Hungría</pais>
+    </ubicacion>
+
+    <referencias>
+        <referencia direccion="https://es.wikipedia.org/wiki/Circuito_de_Balaton_Park">Referencia 1: Wikipedia</referencia>
+        <referencia direccion="https://www.balatonparkcircuit.com/">Referencia 2: Balaton Park Circuit Oficial</referencia>
+        <referencia direccion="https://www.eldiario.es/spin/deportes/motogp-estrena-balaton-park-circuito-devuelve-mundial-hungria-33-anos-despues-pm_1_12550518.html">Referencia 3: el Diario</referencia>
+    </referencias>
+
+    <fotografias>
+        <fotografia direccion="multimedia/BalatonPark.jpg">Fotografía 1</fotografia>
+        <fotografia direccion="multimedia/BalatonParkCircuito.jpg">Fotografía 2</fotografia>
+        <fotografia direccion="multimedia/BalatonParkSalida.jpg">Fotografía 3</fotografia>
+    </fotografias>
+
+    <videos>
+        <video direccion="multimedia/VideoCircuito.mp4">Video 1</video>
+    </videos>
+
+    <puntoOrigen>
+        <longitudPunto unidad="grados">18.20056</longitudPunto>
+        <latitud unidad="grados">47.00750</latitud>
+        <altitud unidad="metros">109</altitud>
+    </puntoOrigen>
+    
+    <tramos>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.19861</longitudPunto>
+                <latitud unidad="grados">47.00500</latitud>
+                <altitud unidad="metros">108</altitud>
+            </puntoFinal>
+            <numSector>1</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.19861</longitudPunto>
+                <latitud unidad="grados">47.00583</latitud>
+                <altitud unidad="metros">111</altitud>
+            </puntoFinal>
+            <numSector>1</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.19750</longitudPunto>
+                <latitud unidad="grados">47.00611</latitud>
+                <altitud unidad="metros">111</altitud>
+            </puntoFinal>
+            <numSector>1</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.19639</longitudPunto>
+                <latitud unidad="grados">47.00472</latitud>
+                <altitud unidad="metros">110</altitud>
+            </puntoFinal>
+            <numSector>1</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.19889</longitudPunto>
+                <latitud unidad="grados">47.00278</latitud>
+                <altitud unidad="metros">110</altitud>
+            </puntoFinal>
+            <numSector>1</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20306</longitudPunto>
+                <latitud unidad="grados">47.00806</latitud>
+                <altitud unidad="metros">109</altitud>
+            </puntoFinal>
+            <numSector>1</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20389</longitudPunto>
+                <latitud unidad="grados">47.00750</latitud>
+                <altitud unidad="metros">109</altitud>
+            </puntoFinal>
+            <numSector>1</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20639</longitudPunto>
+                <latitud unidad="grados">47.00778</latitud>
+                <altitud unidad="metros">108</altitud>
+            </puntoFinal>
+            <numSector>2</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20861</longitudPunto>
+                <latitud unidad="grados">47.00361</latitud>
+                <altitud unidad="metros">110</altitud>
+            </puntoFinal>
+            <numSector>2</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20917</longitudPunto>
+                <latitud unidad="grados">47.00333</latitud>
+                <altitud unidad="metros">110</altitud>
+            </puntoFinal>
+            <numSector>2</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20944</longitudPunto>
+                <latitud unidad="grados">47.00361</latitud>
+                <altitud unidad="metros">109</altitud>
+            </puntoFinal>
+            <numSector>2</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20972</longitudPunto>
+                <latitud unidad="grados">47.00194</latitud>
+                <altitud unidad="metros">110</altitud>
+            </puntoFinal>
+            <numSector>2</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.21111</longitudPunto>
+                <latitud unidad="grados">47.00250</latitud>
+                <altitud unidad="metros">109</altitud>
+            </puntoFinal>
+            <numSector>2</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20972</longitudPunto>
+                <latitud unidad="grados">47.00722</latitud>
+                <altitud unidad="metros">109</altitud>
+            </puntoFinal>
+            <numSector>2</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20472</longitudPunto>
+                <latitud unidad="grados">47.00917</latitud>
+                <altitud unidad="metros">109</altitud>
+            </puntoFinal>
+            <numSector>3</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20500</longitudPunto>
+                <latitud unidad="grados">47.00972</latitud>
+                <altitud unidad="metros">108</altitud>
+            </puntoFinal>
+            <numSector>3</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20389</longitudPunto>
+                <latitud unidad="grados">47.01056</latitud>
+                <altitud unidad="metros">110</altitud>
+            </puntoFinal>
+            <numSector>3</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20194</longitudPunto>
+                <latitud unidad="grados">47.01028</latitud>
+                <altitud unidad="metros">110</altitud>
+            </puntoFinal>
+            <numSector>3</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20194</longitudPunto>
+                <latitud unidad="grados">47.00944</latitud>
+                <altitud unidad="metros">109</altitud>
+            </puntoFinal>
+            <numSector>3</numSector>
+        </tramo>
+        <tramo>
+            <distancia unidad="metros">300</distancia>
+            <puntoFinal>
+                <longitudPunto unidad="grados">18.20056</longitudPunto>
+                <latitud unidad="grados">47.00750</latitud>
+                <altitud unidad="metros">109</altitud>
+            </puntoFinal>
+            <numSector>1</numSector>
+        </tramo>
+    </tramos>
+
+    <vencedor>
+        <nombre>Marc Márquez</nombre>
+        <tiempo minutos="42" segundos="37" decimas="681"></tiempo>
+    </vencedor>
+
+    <primerosClasificados>
+        <clasificado>
+            <nombre>Marc Márquez</nombre>
+            <puesto>1</puesto>
+        </clasificado>
+
+        <clasificado>
+            <nombre>Pedro Acosta</nombre>
+            <puesto>2</puesto>
+        </clasificado>
+
+        <clasificado>
+            <nombre>Marco Bezzecchi</nombre>
+            <puesto>3</puesto>
+        </clasificado>
+    </primerosClasificados>
+
+</circuito>

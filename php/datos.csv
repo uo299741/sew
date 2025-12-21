@@ -1,0 +1,18 @@
+tabla,usuario_id,profesion,edad,genero,pericia_informatica
+Usuario,1,estudiante,22,Hombre,Alta
+Usuario,2,orientadora,53,Mujer,Media
+Usuario,3,Profesor,48,Hombre,Baja
+Usuario,4,Profesor,43,Mujer,Baja
+Usuario,5,"Ama de casa",59,Mujer,Baja
+Usuario,6,Estudiante,23,Mujer,Media
+Usuario,7,Analista,48,Hombre,Media
+
+tabla,dispositivo_id,tipo
+Dispositivo,1,tableta
+Dispositivo,2,ordenador
+Dispositivo,3,tableta
+Dispositivo,4,teléfono
+Dispositivo,5,ordenador
+Dispositivo,6,tableta
+Dispositivo,7,teléfono
+
